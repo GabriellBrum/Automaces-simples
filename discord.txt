@@ -1,0 +1,43 @@
+showwindow
+set linedelay 1
+:1
+wait 500
+DOUBLE_LEFT 401, 721 // linha 3 a linha 8 copia o elemento |
+wait 300
+RIGHT 385, 718
+wait 300
+LEFT 441, 622
+wait 300
+RIGHT 1233, 727 // seleciona um membro do discord
+wait 300
+LEFT 1136, 505  // clica em alterar apelido
+wait 300
+LEFT 757, 414 // linha 13 a linha 19 cuidam de colar o elemento |
+wait 300
+SEND {SPACE}
+RIGHT 757, 411 // cord do ctrl c  757, 411 819, 471
+wait 300
+LEFT 819, 471
+wait 300
+SEND {SPACE}
+DOUBLE_LEFT 506, 410 // seleciona o id
+wait 300
+RIGHT 511, 415 // clica com o botão direito no id
+wait 300
+LEFT 597, 506 // clica em cortar no id selecionado
+wait 300
+LEFT 757, 411  // clica no final do nome
+wait 300
+// SEND {SPACE} // da um espaço
+// wait 300
+RIGHT 833, 412  // clica com botão direito no final do nome 753, 509
+wait 500
+LEFT 872, 470  // cola o id no final do nome
+wait 500
+LEFT 488, 413 //vai para o inicio da caixinha
+wait 500
+SEND {delete} // deleta o # no inicio do nome
+wait 500
+LEFT 838, 517
+wait 500
+goto 1
