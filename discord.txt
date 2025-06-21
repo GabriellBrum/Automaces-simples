@@ -1,5 +1,4 @@
 showwindow
-set linedelay 1
 :1
 wait 500
 DOUBLE_LEFT 401, 721 // linha 3 a linha 8 copia o elemento |
@@ -22,15 +21,15 @@ wait 300
 SEND {SPACE}
 DOUBLE_LEFT 506, 410 // seleciona o id
 wait 300
-RIGHT 511, 415 // clica com o bot„o direito no id
+RIGHT 511, 415 // clica com o bot√£o direito no id
 wait 300
 LEFT 597, 506 // clica em cortar no id selecionado
 wait 300
 LEFT 757, 411  // clica no final do nome
 wait 300
-// SEND {SPACE} // da um espaÁo
+// SEND {SPACE} // da um espa√ßo
 // wait 300
-RIGHT 833, 412  // clica com bot„o direito no final do nome 753, 509
+RIGHT 833, 412  // clica com bot√£o direito no final do nome 753, 509
 wait 500
 LEFT 872, 470  // cola o id no final do nome
 wait 500
